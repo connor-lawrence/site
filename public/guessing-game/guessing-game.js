@@ -19,8 +19,6 @@ guessCount.innerHTML = 0
 button.addEventListener('click', go);
 button.addEventListener('click', checkForWin);
 
-
-
 function roughScale(x, base) {
  
 	const parsed = Number.parseInt(x, base);
@@ -30,13 +28,9 @@ function roughScale(x, base) {
   return parsed * 100;
 }
 
-
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max))
 }
-
-
 
 function go() {
 	makeItHide(msgWin)
@@ -65,7 +59,6 @@ function makeItHide(el) {
 if (!el) return
 el.style.display = "none"
 }
-
 
 function checkForWin() {
 
