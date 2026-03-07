@@ -1,46 +1,45 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Guessing Game
-        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style.css">
+        <!-- <script src="../firebase.js" defer></script> -->
+        <script src="guessing-game.js" defer></script>
+        <title>Guessing Game</title>
     </head>
     <body>
+        <div class="menu-button" onclick="this.classList.toggle('active');
+        document.querySelector('.menu').classList.toggle('active');">
+            <span></span><span></span><span></span>
+        </div>
         <nav class="menu">
             <a href="../">Home</a>
             <a href="../binary/">Binary Converter</a>
-            <a href="../calculator/">Calculator</a>
-        </nav>
-        <br>
-        <nav class="menu">
             <a href="../die-roller/">Die Roller</a>
             <a href="../guessing-game/">Guessing Game</a>
             <a href="../passcode/">Passcode</a>
         </nav>
-        <br>
-        <hr>
-        <div class="short-break"></div>
         <h1>Guessing Game</h1>
+        <p style="height: 1px;"></p>
         <h2 id="win" style="display: none;">You Win!</h2>
         <h2 id="high" style="display: none;">Your guess was too high. Try again!</h2>
         <h2 id="low" style="display: none;">Your guess was too low. Try again!</h2>
         <h2 id="lose" style="display: none;">You ran out of turns.</h2>
         <h4 id="lose2" style="display: none;">Refresh to play again!</h4>
         <h4>I've picked a number... can you guess what it is?</h4>
-        <p>
-        Rules:
+        <p>Rules:
         <ol>
             <li>I have picked a number between 0 and 100</li>
             <li>You only have 10 guesses to guess that number, so good luck!</li>
-        </ol>
-        </p>
+        </ol></p>
         <div id="inputs">
         Guess #: <span id="guessCount"></span>
         <input id="guess" />
         <button>Go!</button>
         You have <span id="guessesLeft"></span> guesses left!
         </div>
-        <script src="guessing-game.js" defer></script>
+        <footer>
+            <p>Made with love... and lots of Git commits</p>
+        </footer>
     </body>
 </html>

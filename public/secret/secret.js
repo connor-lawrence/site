@@ -73,13 +73,13 @@ const ofSpan1 = document.getElementById("of1");
 const ofSpan2 = document.getElementById("of2");
 
 if (playersHand[0].color === "red") {
-    cardSpan1.style.color="#FF0000";
-    cardSuit11.style.color="#FF0000";
-    ofSpan1.style.color="#FF0000";
+    cardSpan1.style.color="crimson";
+    cardSuit11.style.color="crimson";
+    ofSpan1.style.color="crimson";
 }
 
 if (playersHand[1].color === "red") {
-    cardSpan2.style.color="#FF0000";
-    cardSuit12.style.color="#FF0000";
-    ofSpan2.style.color="#FF0000";
+    cardSpan2.style.color="crimson";
+    cardSuit12.style.color="crimson";
+    ofSpan2.style.color="crimson";
 }
