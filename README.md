@@ -8,5 +8,5 @@ Feel free to poke around, try things out, and have fun! :)
 ## Some small details:
 * All `HTML`, `JS`, and `CSS` (for now!)
 * Dark Mode, because we all know dark mode is simply better
-* Mobile-friendly! (Through much pain and suffering)
+* Mobile-friendly! (Through much pain and suffering...)
 * Entirely for fun — zero stress, zero pressure... and zero quality 
